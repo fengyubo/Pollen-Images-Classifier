@@ -1,0 +1,32 @@
+Tester:     weka.experiment.PairedCorrectedTTester
+Analysing:  Percent_correct
+Datasets:   4
+Resultsets: 11
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       4/19/15 4:09 PM
+
+
+Dataset                   (1) bayes.Na | (2) funct (3) funct (4) funct (5) lazy. (6) rules (7) trees (8) trees (9) trees (10) tree (11) tree
+--------------------------------------------------------------------------------------------------------------------------------------------
+pollen-weka.filters.unsup (50)   62.33 |   73.00     54.33     78.00     77.33 v   56.00     49.00     76.67 v   75.67     72.67     54.33  
+'pollen-weka.filters.unsu (50)   59.00 |   62.33     53.67     58.00     57.67     52.00     43.00 *   66.00     65.00     63.33     52.33  
+'pollen-weka.filters.unsu (50)   71.33 |   74.33     55.00 *   71.33     78.00     61.00     52.00 *   74.33     73.67     69.00     59.33  
+'pollen-weka.filters.unsu (50)   68.33 |   79.67     67.00     75.67     76.00     57.33     52.00 *   82.67 v   79.33     73.67     58.00  
+--------------------------------------------------------------------------------------------------------------------------------------------
+                               (v/ /*) |   (0/4/0)   (0/3/1)   (0/4/0)   (1/3/0)   (0/4/0)   (0/1/3)   (2/2/0)   (0/4/0)   (0/4/0)   (0/4/0)
+
+
+Key:
+(1) bayes.NaiveBayes '' 5995231201785697655
+(2) functions.Logistic '-R 1.0E-8 -M -1' 3932117032546553727
+(3) functions.MultilayerPerceptron '-L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 3' -5990607817048210779
+(4) functions.SMO '-C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \"functions.supportVector.PolyKernel -C 250007 -E 1.0\"' -6585883636378691736
+(5) lazy.IBk '-K 3 -W 0 -I -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"' -3080186098777067172
+(6) rules.PART '-M 2 -C 0.25 -Q 1' 8121455039782598361
+(7) trees.BFTree '-S 1 -M 2 -N 5 -C 1.0 -P POSTPRUNED' -7035607375962528217
+(8) trees.FT '-I 15 -F 0 -M 15 -W 0.0' -1113212459618105000
+(9) trees.LMT '-I -1 -M 15 -W 0.0' -1113212459618104943
+(10) trees.RandomForest '-I 100 -K 0 -S 1' -2260823972777004705
+(11) trees.RandomTree '-K 0 -M 1.0 -S 1' 8934314652175299374
+
